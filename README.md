@@ -25,6 +25,11 @@ Your archway address:
 echo $ARCHWAY_ADDRESS
 ```
 
+Check your balance:
+```shell
+archwayd query bank balances $ARCHWAY_ADDRESS
+```
+
 Create validator:
 ```shell
 archwayd tx staking create-validator \
