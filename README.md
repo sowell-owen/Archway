@@ -46,3 +46,7 @@ archwayd tx staking create-validator \
   --gas 200000 \
   --fees 1uaugust
 ```
+Check your validator:
+```shell
+archwayd query staking validator $ARCHWAY_VALOPER
+```
