@@ -2,7 +2,7 @@
 
 #Logo
 
-curl -s https://raw.githubusercontent.com/sowell-owen/scripts/main/nodesy-logo.sh | bash
+curl -s https://raw.githubusercontent.com/sowell-owen/scripts/main/nodesy-logo.sh | bash && sleep 2
 echo "============================================================"
 
 #Preparation
@@ -64,14 +64,16 @@ archwayd unsafe-reset-all
 archwayd keys add $ARCHWAY_WALLET
 
 RED='\033[0;31m'
+RedBlink = '\033[5;31m'
 RES='\033[0m'
 
 echo ""
 echo ""
-echo -e "${RED}SAVE YOUR MNEMONIC PHRASE!${RES}"
+echo -e "${RedBlink}SAVE YOUR MNEMONIC PHRASE!${RES}"
 echo ""
 echo ""
 ARCHWAY_ADDRESS=$(archwayd keys show $ARCHWAY_WALLET -a)
+echo ""
 echo "Your wallet address (\$ARCHWAY_ADDRESS): $ARCHWAY_ADDRESS"
 echo ""
 ARCHWAY_VALOPER=$(archwayd keys show $ARCHWAY_WALLET --bech val -a)
@@ -105,7 +107,7 @@ sudo systemctl enable archwayd
 sudo systemctl restart archwayd
 
 
-ech o""
+echo ""
 echo "==================================================================================="
 echo ""
 
