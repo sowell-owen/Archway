@@ -26,7 +26,7 @@ echo "Your wallet name (\$ARCHWAY_WALLET): $ARCHWAY_WALLET"
 ARCHWAY_CHAIN="augusta-1"
 
 echo 'export ARCHWAY_CHAIN='${ARCHWAY_CHAIN} >> $HOME/.bash_profile
-echo 'export ARCHWAY_MONIKER='${ARCHWAY_NODENAME} >> $HOME/.bash_profile
+echo 'export ARCHWAY_NODENAME='${ARCHWAY_NODENAME} >> $HOME/.bash_profile
 echo 'export ARCHWAY_WALLET='${ARCHWAY_WALLET} >> $HOME/.bash_profile
 
 echo ""
