@@ -53,10 +53,10 @@ archwayd query staking validator $ARCHWAY_VALOPER
 ```
 
 # My socials 🌐
-## Telegram community (RU): https://t.me/nodesy
+### Telegram community (RU): https://t.me/nodesy
 
-## Twitter: https://twitter.com/sowell_nodesy 
+### Twitter: https://twitter.com/sowell_nodesy 
 
-## Discord: sowell | NodeSy#5023
+### Discord: sowell | NodeSy#5023
 
 ![NodeSy logo](https://user-images.githubusercontent.com/65121631/159547961-e6b559d5-de2f-44ad-a043-6a30127df154.png)
