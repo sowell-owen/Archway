@@ -1,10 +1,9 @@
-# Archway install guide
+# Archway install guide ⚛️
 
 ```shell
 curl -s https://raw.githubusercontent.com/sowell-owen/Archway/main/archway > archway.sh && chmod +x archway.sh && ./archway.sh
 ```
 When script is finished:
-
 ```shell
 source $HOME/.bash_profile
 ```
@@ -14,7 +13,8 @@ Check logs:
 journalctl -u archwayd -f -o cat
 ```
 
-Wait for sync. Use this command (wait for "catching_up": false): 
+###Wait for sync
+>Use this command (wait for "catching_up": false): 
 ```shell
 curl -s localhost:26657/status
 ```
