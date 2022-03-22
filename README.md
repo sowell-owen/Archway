@@ -13,7 +13,7 @@ Check logs:
 journalctl -u archwayd -f -o cat
 ```
 
-###Wait for sync
+###### Wait for sync
 >Use this command (wait for "catching_up": false): 
 ```shell
 curl -s localhost:26657/status
