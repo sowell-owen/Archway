@@ -50,3 +50,12 @@ Check your validator:
 ```shell
 archwayd query staking validator $ARCHWAY_VALOPER
 ```
+
+# My socials 🌐
+## Telegram community (RU): https://t.me/nodesy
+
+## Twitter: https://twitter.com/sowell_nodesy 
+
+## Discord: 
+
+IMAGE
