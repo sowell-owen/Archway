@@ -35,7 +35,7 @@ archwayd tx staking create-validator \
   --commission-rate "0.01" \
   --min-self-delegation "1" \
   --pubkey $(archwayd tendermint show-validator) \
-  --moniker $ARCHWAY_MONIKER \
+  --moniker $ARCHWAY_NODENAME \
   --chain-id $ARCHWAY_CHAIN \
   --gas 200000 \
   --fees 1uaugust
