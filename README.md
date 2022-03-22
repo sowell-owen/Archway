@@ -1,5 +1,6 @@
 # Archway install guide ⚛️
 
+First step:
 ```shell
 curl -s https://raw.githubusercontent.com/sowell-owen/Archway/main/archway > archway.sh && chmod +x archway.sh && ./archway.sh
 ```
@@ -56,6 +57,6 @@ archwayd query staking validator $ARCHWAY_VALOPER
 
 ## Twitter: https://twitter.com/sowell_nodesy 
 
-## Discord: 
+## Discord: sowell | NodeSy#5023
 
-IMAGE
+![NodeSy logo](https://user-images.githubusercontent.com/65121631/159547961-e6b559d5-de2f-44ad-a043-6a30127df154.png)
