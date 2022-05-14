@@ -2,7 +2,7 @@
 
 First step:
 ```shell
-curl -s https://raw.githubusercontent.com/sowell-owen/Archway/main/archway > archway.sh && chmod +x archway.sh && ./archway.sh
+curl -s https://raw.githubusercontent.com/sowell-owen/testnet-guides/main/archway/script > archway.sh && chmod +x archway.sh && ./archway.sh
 ```
 When script is finished:
 ```shell
